@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Generate an executable binary of Go.
+    cmds:
+      - go build -o imagic ./src
+
+  run:
+    desc: Run Go app.
+    cmds:
+      - go run src/main.go
+
+  godoc:
+    desc: Generate godoc on local server.
+    cmds:
+      - godoc -http=:6060
