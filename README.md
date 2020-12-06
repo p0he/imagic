@@ -1,11 +1,6 @@
 # Imagic
 Image extension converter in Go.
 
-# Installation
-
-```
-go get -u https://github.com/p0he/imagic
-```
 
 # Usage
 case no option, convert from `.jpg` to `.png`. 
